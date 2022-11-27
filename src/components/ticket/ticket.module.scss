@@ -1,0 +1,61 @@
+.ticket {
+	width: 502px;
+	height: 184px;
+	margin-top: 20px;
+	padding: 20px;
+	text-transform: uppercase;
+	font-weight: 600;
+	background-color: #fff;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.title {
+	display: flex;
+	justify-content: space-between;
+	font-size: 16px;
+	align-items: baseline;
+}
+.price {
+	color: #2196f3;
+	font-weight: 600;
+}
+.main {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-weight: 600;
+}
+.departure-city,
+.travel-time-title,
+.transplants-count {
+	color: #a0b0b9;
+	font-size: 12px;
+	font-weight: 600;
+	text-align: left;
+}
+.departure-time,
+.travel-time-total,
+.transplants-cities {
+	font-size: 14px;
+	color: #4a4a4a;
+	margin-top: -3px;
+	font-weight: 600;
+	text-align: left;
+}
+.travel-time-total {
+	text-transform: lowercase;
+	font-weight: 600;
+	text-align: left;
+}
+.flight,
+.travel-time,
+.transplants {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}

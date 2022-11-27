@@ -1,0 +1,35 @@
+.list {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+.item {
+	list-style: none;
+	padding: 15px;
+	display: inline-block;
+	text-transform: uppercase;
+	background-color: #fff;
+	border: 1px solid #dfe5ec;
+	font-size: 12px;
+	width: 168px;
+	text-align: center;
+	font-weight: 600;
+	cursor: pointer;
+}
+.item:hover {
+	background-color: #f1fcff;
+}
+.item-active {
+	background-color: #2196f3;
+	list-style: none;
+	padding: 15px;
+	display: inline-block;
+	text-transform: uppercase;
+	border: 1px solid #dfe5ec;
+	font-size: 12px;
+	width: 168px;
+	text-align: center;
+	color: #fff;
+	font-weight: 600;
+	cursor: pointer;
+}
